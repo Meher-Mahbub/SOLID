@@ -1,3 +1,4 @@
+# Interface Segregation Principle
 # A class should not be forced to implement methods it doesn't use.
 # ✅ Example: Use separate interfaces instead of one large interface.
 
@@ -29,6 +30,7 @@ printer = SimplePrinter()
 print(printer.print())
 
 print(printer.scan())      # will raise an error since its not a scanner
+
 
 
 # ☑ Why? This avoids unnecessary method implementation in unrelated classes.
